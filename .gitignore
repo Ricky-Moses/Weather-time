@@ -25,11 +25,3 @@ dist-ssr
 
 # ENV
 .env
-
-# Optional: environment variants
-.env.development
-.env.production
-.env.test
-
-# Optional: system files
-Thumbs.db
