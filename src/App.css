@@ -1,0 +1,39 @@
+/* TODOS: Weather Route Area */
+.weather {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather .weather_bg-media {
+  position: absolute;
+  width: 100vw;
+  height: 100dvh;
+  inset: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.weather .weather_search-details{
+    backdrop-filter: blur(20px);
+    width: 80vw;
+    height: auto;
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 2px;
+    color: #fff;
+}
+
+@media (max-width: 1024px) {
+  .weather{
+    align-items: start;
+  }
+  .weather .weather_search-details{
+    width: 100vw;
+    flex-direction: column;
+  }
+}

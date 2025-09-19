@@ -1,0 +1,34 @@
+.slick-slider{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow-y: scroll;
+    padding: 5px;
+}
+
+.slick-slider .slick-card{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.slick-slider .slick-card figure{
+    width: 100px;
+    height: 100%;
+    background: #00000020;
+    border-radius: 2px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.slick-slider .slick-card figure h1{
+    font-size: 1.8em;
+}
